@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f4f4f9;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .game-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  input {
+    padding: 15px;
+    outline: none;
+    background: #f0f0f0;
+    width: 100%;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  button {
+    border-radius: 20px;
+    background: #6c5ce7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #5a4cd9;
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .stats {
+    background: #4b4b4b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 45%;
+  }
+  
+  @media (max-width: 768px) {
+    .game-container {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    input {
+      font-size: 1.1rem;
+    }
+  
+    button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  
+  .score-attempts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
